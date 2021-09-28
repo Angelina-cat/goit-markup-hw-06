@@ -71,8 +71,9 @@
                    
                 <button data-modal-open type="button" class='hot-button '> Заказать услугу </button>
             </div>
-            <div  class="anketa-modal is-hidden  " data-modal >
-               
+           
+                <form action="form-modul" class="form-modal" method="GET">
+                    <div  class="anketa-modal is-hidden  " data-modal >
             <div   class="modal-animation">
                 <div data-modal-close class="modal-icon">
                   <svg class="link-modal " >
@@ -80,35 +81,52 @@
                 </svg>
             </div>
             <div class="form-modal-two">
-            <form action="form-modul" class="form-modal" method="GET">
+           
               
                 <p class="modal-info">Оставьте свои данные, мы вам перезвоним</p>
                 
-                <label>
+                <label class="modal-name-second">
+                    <div class="second-icon">
                   <p class="modal-name">   Имя</p>
-                   
-                    <input type="text" name="username" class="text-modal" required>
+                  
+                  <svg class="modal-link-icon" width="13" height="13">
+                    <use href="./img/21sprite.svg#icon-person-black-18dp-1"></use>
+                </svg>
+           
+                    <input type="text" name="username" class="box-modal text-modal" required>
+                </div>
                 </label>
                 
                   
                     <label >
-                    <p class="telephone-modul">  Телефон</p>
                         
-                        <input type="tel" name="phone_number" class="kontakt-modal "pattern="[\+]\d{3}\s[\(]\d{2}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}" required>
+                    <p class="telephone-modul">  Телефон</p>
+                  <div class="second-icon">
+                    
+                    <svg class="modal-link-icon" width="13" height="13">
+                        <use href="./img/sprite-icon.svg#icon-phone-black-18dp-1"></use>
+                    </svg>
+                </div>
+                        <input type="tel" name="phone_number" class="kontakt-modal box-modal"pattern="[\+]\d{3}\s[\(]\d{2}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}" required>
                      </label>
                      
                 <label> 
                     <p class="mail-modul">Почта</p>
-                <input  type="email" name="email" class="email-modal" required>
+                  <div class="second-icon">
+                    
+                    <svg class="modal-link-icon" width="13" height="13">
+                        <use href="./img/sprite-icon.svg#icon-email-black-18dp-1"></use>
+                    </svg>
+                   </div>
+                <input  type="email" name="email" class="email-modal box-modal " required>
             </label>
               
-                <label for="#" class="coment-modal">
+                <label for="#" class="coment-modal  ">
                     <p class="comment-modul">  Коментарий</p>
                     <textarea name="feedback" rows="5" placeholder="Введите текст" class="commet-text"></textarea>
                   </label> 
                   <label for="#" class="modal-agree">
-                  <input type="checkbox" name="check" class="chek-modal">
-                  <p class="text-modal-do">  Соглашаюсь с рассылкой и принимаю <a href="#" class="blue-color">Условия договора</a></p>
+                  <input type="checkbox" name="check" class="chek-modal"> <p class="text-modal-do">  Соглашаюсь с рассылкой и принимаю <a href="#" class="blue-color">Условия договора</a></p>
                   </label>
                 <button type="submit" class="fly-button"> Отправить </button>
                 
@@ -510,6 +528,17 @@
                     </li>
                 </ul>
             </div>
+            <form action="form-second" class="form-modal-second" method="GET">
+            
+               <h3 class="second-text"> Подпишитесь на рассылку</h3>
+               <div class="second-modul">
+               <label for="#">
+    
+               <input type="email" name="email" class="email-second box-second "  placeholder="E-mail"  required>
+            </label>
+            <button type="submit" > Подписаться </button>
+            </div>
+            </form>
         </div>
     </footer>
     <script src="./js/modal.js"></script>
