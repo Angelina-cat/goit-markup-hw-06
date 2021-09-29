@@ -89,45 +89,49 @@
                     
                   <p class="modal-name">   Имя</p>
                  
-           
+                  <div class="second-icon">
                     <input type="text" name="username" class="box-modal text-modal" required>
-                    <span class="second-icon">
-                        <svg class="modal-link-icon" width="13" height="13">
+                   
+                        <svg class="person-second modal-link-icon  " width="13" height="13">
                           <use href="./img/21sprite.svg#icon-person-black-18dp-1"></use>
                       </svg>
-                </span>
+                    </div>
                 </label>
                 
                   
                     <label for="#"class="modal-name-second">
                         
                     <p class="telephone-modul">  Телефон</p>
-                  
+                    <div class="second-icon">
                         <input type="tel" name="phone_number" class="kontakt-modal box-modal"pattern="[\+]\d{3}\s[\(]\d{2}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}" required>
-                        <span class="second-icon">
+                        
                     
-                            <svg class="modal-link-icon" width="13" height="13">
+                            <svg class=" phone-black modal-link-icon" width="13" height="13">
                                 <use href="./img/sprite-icon.svg#icon-phone-black-18dp-1"></use>
                             </svg>
-                        </span>
+                        </div>
                     </label>
                      
                 <label> 
                     <p class="mail-modul">Почта</p>
-                  
+                    <div class="second-icon">
                 <input  type="email" name="email" class="email-modal box-modal " required>
-                <span class="second-icon">
+               
                     
-                    <svg class="modal-link-icon" width="13" height="13">
+                    <svg class="modal-link-icon letter-modal" width="13" height="13">
                         <use href="./img/sprite-icon.svg#icon-email-black-18dp-1"></use>
                     </svg>
-                </span>
+                    </div>
+              
             </label>
               
                 <label for="#" class="coment-modal  ">
                     <p class="comment-modul">  Коментарий</p>
+                   
+                   
                     <textarea name="feedback" rows="5" placeholder="Введите текст" class="commet-text"></textarea>
-                  </label> 
+              
+                </label> 
                   <label for="#" class="modal-agree">
                   <input type="checkbox" name="check" class="chek-modal"> <p class="text-modal-do">  Соглашаюсь с рассылкой и принимаю <a href="#" class="blue-color">Условия договора</a></p>
                   </label>
@@ -536,10 +540,15 @@
                <h3 class="second-text"> Подпишитесь на рассылку</h3>
                <div class="second-modul">
                <label for="#">
-    
+                 
                <input type="email" name="email" class="email-second box-second "  placeholder="E-mail"  required>
             </label>
+            <div class="air-footer">
+                <svg class="footer-letter" width="24px" height="24px">
+                    <use href="./img/sprite-icon.svg#icon-icon-send"></use>
+                </svg>
             <button type="submit" > Подписаться </button>
+            </div>
             </div>
             </form>
         </div>

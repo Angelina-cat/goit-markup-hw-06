@@ -1013,6 +1013,7 @@ opacity: 1;
         transform: translate(-30%, -30%) scale(1);
     }
 .modal-info{
+    
     color:rgba(33, 33, 33, 1);
     
 
@@ -1024,7 +1025,7 @@ opacity: 1;
     letter-spacing: 0.03em;
   
     
-padding-top: 2px;
+
 
 
 
@@ -1053,30 +1054,33 @@ padding-top: 2px;
     letter-spacing: 0.06em;
     height: 50px;
     border: transparent;
-    padding: 10 10;
+    
     text-decoration: none;
     text-align: center;
     border-radius: 4px;   
-    padding-top:30px;
+    margin-top: 30px;
     margin-bottom: 40px;
  }
  .modal-icon{
     
-     position: absolute;
+     position: relative;
  display: flex;
     width: 30px;
     height: 30px;
     border:  1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
-    padding-right: 8px;
+
+    
+    
    
 
 }
 .link-modal{
     
-    position: absolute;
+   position: absolute;
     padding-top: 9px;
     padding-left: 9px;
+  
     padding-right: 8px;
     
 }
@@ -1127,10 +1131,11 @@ padding-top: 2px;
     text-align: left;
     padding-bottom: 4px;
  margin-left: 41px;
-padding-top: 4px;
+padding-top: 12px;
     font-family: Roboto, sans-serif;
 }
 .telephone-modul{
+    padding-top: 10px;
     color:rgba(117, 117, 117, 1);
     margin-left: 41px;
     padding-bottom: 4px;
@@ -1140,12 +1145,13 @@ padding-top: 4px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     
-    
+    text-align: left;
   
 
     font-family: Roboto, sans-serif;
 }
 .mail-modul{
+    padding-top:10px ;
     color:rgba(117, 117, 117, 1);
    
     padding-bottom: 4px;
@@ -1162,7 +1168,7 @@ padding-top: 4px;
 }
 .comment-modul{
     color:rgba(117, 117, 117, 1);
-    
+    padding-top: 10px;
     padding-bottom: 4px;
     font-size: 16px;
     font-style: normal;
@@ -1179,27 +1185,15 @@ padding-top: 4px;
     width:448px;
     height:120px ;
     border: 1px solid rgba(33, 33, 33, 0.2);
-margin-bottom: 28px;
-
-padding-top: 4px;
+padding-left: 16px;
+padding-top: 12px;
+padding-right: 16px;
+padding-bottom: 12px;
+margin-left: 14px;
 margin-bottom: 20px;
 
 }
-.text-modal-do{
-    color:rgba(117, 117, 117, 1);
-    
-    padding-bottom: 30px;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-   
-    
-   margin-left: 41px;
 
-    font-family: Roboto, sans-serif;
-}
 .email-modal:hover use,
 .email-modal:hover {
     border-color: #2196f3;
@@ -1236,10 +1230,7 @@ margin-bottom: 20px;
     font-family: Roboto, sans-serif;
 }
 
-    .chek-modal{
-        margin-right: 53px;
-        margin-top: 25px;
-    }
+    
     
 input .chek-modal {
     background-color: #2196f3;
@@ -1287,13 +1278,7 @@ input .chek-modal {
     .box-modal{
         margin-left: 41px;
     }
-    .modal-link-icon{
-        display: flex;
-       position: absolute;
-       margin-left: 25px;
-       
-
-    }
+   
     .modal-link-icon use:hover {
         fill:rgba(33, 150, 243, 1);
         }
@@ -1352,9 +1337,8 @@ padding-left: 95px;
     letter-spacing: 0.06em;
     height: 50px;
     border: transparent;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-decoration: none;
+   text-align: center;
+   
     
     border-radius: 4px;   
     margin-left: 12px;
@@ -1366,9 +1350,71 @@ padding-left: 95px;
 
  }
  .second-icon{
-     display: inline-block;
-     padding-left: 5px;
+     display: flex;
+     position: relative;
+     padding-right: 41px;
+
  }
- .modal-name-second{
-     display: inline-block;
+
+     
+     
+ 
+ .person-second{
+     position: absolute;
+     margin-top: 14px;
+     margin-left: 56px;
+     
  }
+ 
+ .phone-black{
+    position: absolute;
+    margin-top: 14px;
+    margin-left: 56px;
+    
+}
+.letter-modal{
+    position: absolute;
+    margin-top: 14px;
+    margin-left: 56px;
+    
+}
+.modal-agree{
+    display: flex;
+    margin-left: 54px;
+     padding-top: 25px; 
+     width:16px ;
+     height:15px ;
+}
+.modal-agree input:hover{
+    background-color:#2196f3
+}
+.text-modal-do{
+    margin-left: 77px;
+    color:rgba(117, 117, 117, 1);
+    
+    margin-top: 20px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+  
+    
+
+
+    font-family: Roboto, sans-serif;
+}
+.footer-letter{
+   
+position: absolute;
+padding-top: 13px;
+padding-right: 13px;
+
+}
+.air-footer{
+    display: flex;
+    position: relative;
+    display: flex;
+    justify-content: right;
+    
+}
